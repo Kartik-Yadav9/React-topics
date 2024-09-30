@@ -22,6 +22,7 @@ import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
 import { Provider } from 'react-redux';
 import { store } from './Redux-Toolkit/store';
 import Approute from './Routerexam/Approute';
+import Functional from './Life Cycle/Functional';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,7 +36,10 @@ root.render(
     {/* <App/> */}
     {/* <Practice/> */}
 
-    <Todos/>
+    {/* <Todos/> */}
+
+
+    {/* <Functional/> */}
 
     {/* <UseCallback/> */}
 
@@ -48,9 +52,9 @@ root.render(
     
 
    
-    {/* <Provider store={store}>
+    <Provider store={store}>
     <AppRedux />
-  </Provider>, */}
+  </Provider>,
    
 
 
