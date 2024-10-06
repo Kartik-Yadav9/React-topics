@@ -8,7 +8,7 @@ function Apps(){
   return (
     <div className='appsStyle'>
       <UserContextProvider>
-          <h1>Hi, its Kartik</h1>
+          <h1>Hi, its Kartikkkkkkkkkkkkkkkk</h1>
           <Login/>
           <Profile/>
       </UserContextProvider>
