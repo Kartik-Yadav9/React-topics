@@ -1,5 +1,3 @@
-
-
 import React, { useReducer } from 'react'
 import TodoList from './TodoList';
 import Header from './Header';
