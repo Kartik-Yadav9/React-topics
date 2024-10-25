@@ -23,6 +23,7 @@ import { Provider } from 'react-redux';
 import { store } from './Redux-Toolkit/store';
 import Approute from './Routerexam/Approute';
 import Functional from './Life Cycle/Functional';
+import PswdGenerator from './Useref callback/PswdGenerator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -52,11 +53,15 @@ root.render(
     
 
    
-    <Provider store={store}>
+    {/* <Provider store={store}>
     <AppRedux />
-  </Provider>,
-   
+  </Provider>, */}
 
+  {/* <PswdGenerator/> */}
+   
+      {/* <UseMemo/> */}
+
+      <UseCallback/>
 
   </React.StrictMode>
  
