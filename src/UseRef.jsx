@@ -6,10 +6,11 @@ import React, { useRef } from 'react'
 export default function UseRef() {
 
     let name= useRef()
-    console.log(name);
+    // console.log(name);
 
     let clicked= ()=>{
        console.log( name.current.value);
+       name.current.focus();
     }
 
 

@@ -24,6 +24,8 @@ import { store } from './Redux-Toolkit/store';
 import Approute from './Routerexam/Approute';
 import Functional from './Life Cycle/Functional';
 import PswdGenerator from './Useref callback/PswdGenerator';
+import Session from './storage/Session';
+import Jwt from './Jwt Token/Jwt';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -38,7 +40,7 @@ root.render(
     {/* <Practice/> */}
 
     {/* <Todos/> */}
-
+    
 
     {/* <Functional/> */}
 
@@ -60,8 +62,13 @@ root.render(
   {/* <PswdGenerator/> */}
    
       {/* <UseMemo/> */}
+      
 
-      <UseCallback/>
+      {/* <UseCallback/> */}
+
+      {/* <Session/> */}
+
+      <Jwt/>
 
   </React.StrictMode>
  
