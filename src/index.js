@@ -26,6 +26,7 @@ import Functional from './Life Cycle/Functional';
 import PswdGenerator from './Useref callback/PswdGenerator';
 import Session from './storage/Session';
 import Jwt from './Jwt Token/Jwt';
+import LazyParent from './Lazy Load/LazyParent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -68,7 +69,9 @@ root.render(
 
       {/* <Session/> */}
 
-      <Jwt/>
+      {/* <Jwt/> */}
+
+      <LazyParent/>
 
   </React.StrictMode>
  
